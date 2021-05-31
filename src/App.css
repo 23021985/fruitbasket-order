@@ -1,0 +1,97 @@
+body{
+    background-color: navajowhite;
+}
+header{
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+}
+#root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contentHolder{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    max-width: 1100px;
+}
+.contentHolder .form1, .contentHolder .form2{
+    width: calc(50% - 15px);
+    justify-content: center;
+}
+
+.form1, .form2{
+    border: 1px solid red;
+    box-sizing: border-box;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color: khaki;
+    height: auto;
+}
+
+.form div, form, .form2{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: 3px solid black;
+    margin-bottom: 30px;
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+    background-color: bisque;
+}
+
+button[type=reset]{
+    max-width: 300px;
+    width: 100%;
+}
+
+h2{
+    position: relative;
+}
+
+div button{
+    margin-top: 10px;
+}
+textarea{
+    display: flex;
+    width: 300px;
+    height: 200px;
+}
+.errorMessage {
+    color: red;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+label{
+    /*border: 1px solid red;*/
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    height: auto;
+}
+
+ div. bezorgfrequentie{
+   margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    align-items: center;
+
+}
+
+input{
+    background-color: navajowhite;
+    color: black;
+
+}
